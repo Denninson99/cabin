@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alquiler de Cabaña</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .cabin-info {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .cabin-info img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .cabin-info h2 {
+            color: #333;
+        }
+        .cabin-info p {
+            color: #666;
+        }
+        .contact-info {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alquiler de Cabaña en la Montaña</h1>
+    </header>
+    <div class="container">
+        <div class="cabin-info">
+            <img src="cabin.jpg" alt="Cabaña en la montaña">
+            <h2>Descripción de la Cabaña</h2>
+            <p>Disfruta de una estancia relajante en nuestra acogedora cabaña situada en las montañas. Perfecta para una escapada romántica o unas vacaciones familiares.</p>
+            <ul>
+                <li>2 Habitaciones</li>
+                <li>1 Baño</li>
+                <li>Cocina equipada</li>
+                <li>Chimenea</li>
+                <li>Vistas espectaculares</li>
+            </ul>
+            <h2>Precio</h2>
+            <p>$150 por noche</p>
+        </div>
+        <div class="contact-info">
+            <h2>Contacta con Nosotros</h2>
+            <p>Teléfono: 123-456-7890</p>
+            <p>Email: info@cabanamontana.com</p>
+        </div>
+    </div>
+</body>
+</html>
